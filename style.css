@@ -1,0 +1,51 @@
+.flex{
+    display: flex;
+}
+
+.container {
+    margin-left: 220px;
+}
+
+.menu{
+    display: flex;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 26px;
+    letter-spacing: -0.065em;
+    margin: 0 auto;
+    align-items: center;
+    height: 100px;
+    width: 1140px;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.menu .options ul{
+    display: flex;
+}
+
+.menu .options ul li {
+    margin-left: 50px;
+
+}
+
+.red {
+    color: #A80001;
+}
+
+.green{
+    color: #06AA48;
+}
+
+.orange{
+    color: #FF7F00;
+}
+
+.gray {
+    color: #666666;
+}
+
+.violet{
+    color: #A5147D;
+}
