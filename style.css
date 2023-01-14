@@ -1,3 +1,7 @@
+body{
+    font-family: 'Open Sans';
+}
+
 .flex{
     display: flex;
 }
@@ -8,7 +12,6 @@
 
 .menu{
     display: flex;
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 19px;
@@ -27,7 +30,6 @@
 
 .menu .options ul li {
     margin-left: 50px;
-
 }
 
 .red {
@@ -48,4 +50,70 @@
 
 .violet{
     color: #A5147D;
+}
+
+strong{
+    font-weight: bold;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    margin-left: 140px;
+    margin-top: 30px;
+}
+
+.main{
+    width: 580px;
+}
+
+.highlight{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.main .highlight .title{
+    font-size: 52px;
+    letter-spacing: -0.5px;
+}
+
+
+.main .highlight .title .subtitle{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.068em;
+    
+}
+
+.main .news{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.new .title{
+    margin: 10px 0 6px 0;
+}
+
+.main .new {
+    width: 171px;
+    height: 220px;
+}
+
+.black {
+    color: black;
+}
+
+.separator {
+    width: 1px;
+    background-color: #E6E6E6;
+}
+
+.sports{
+    width: 220px;
+    margin-top: 20px;
 }
